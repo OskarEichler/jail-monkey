@@ -1,30 +1,4 @@
 {
-  "_args": [
-    [
-      "jail-monkey@3.0.0"
-    ]
-  ],
-  "_from": "jail-monkey@3.0.0",
-  "_id": "jail-monkey@3.0.0",
-  "_inBundle": false,
-  "_integrity": "sha512-83e5CiTiR0p/CLBOP1JzI+rKGayyOteyPIpJuoplQcgPpS22jMSOhkx08csupXGmxPs/lEv+XElqCOunKrU/hA==",
-  "_location": "/jail-monkey",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "version",
-    "registry": true,
-    "raw": "jail-monkey@3.0.0",
-    "name": "jail-monkey",
-    "escapedName": "jail-monkey",
-    "rawSpec": "3.0.0",
-    "saveSpec": null,
-    "fetchSpec": "3.0.0"
-  },
-  "_requiredBy": [
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/jail-monkey/-/jail-monkey-3.0.0.tgz",
-  "_spec": "3.0.0",
   "author": {
     "name": "Gant Laborde"
   },
@@ -32,9 +6,6 @@
     "url": "https://github.com/GantMan/jail-monkey/issues"
   },
   "description": "A React Native module for identifying jail-broken, rooted, or mock locations on iOS and Android",
-  "devDependencies": {
-    "np": "^10.1.0"
-  },
   "homepage": "https://github.com/GantMan/jail-monkey#readme",
   "keywords": [
     "React-Native",
@@ -54,13 +25,6 @@
     "type": "git",
     "url": "git+ssh://git@github.com/GantMan/jail-monkey.git"
   },
-  "scripts": {
-    "shipit": "np",
-    "test": "echo Not yet",
-    "install-example": "cd ExampleProject && yarn install",
-    "install-example-expo": "cd ExampleExpo && yarn install && npx expo install --fix && yarn expo prebuild --clean",
-    "ts-check": "npx tsc jailmonkey.d.ts --noEmit"
-  },
   "typings": "./jailmonkey.d.ts",
   "version": "3.0.0",
   "codegenConfig": {
@@ -71,5 +35,5 @@
       "javaPackageName": "com.gantix.JailMonkey"
     }
   },
-  "packageManager": "yarn@1.22.22"
+  "packageManager": "npm@12.0.2"
 }
