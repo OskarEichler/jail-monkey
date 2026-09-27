@@ -1,5 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
   <queries>
+    <!-- RootBeer 0.1.1 root/dangerous apps plus HookDetectionCheck.dangerousPackages. -->
     <package android:name="catch_.me_.if_.you_.can_" />
     <package android:name="cc.madkite.freedom" />
     <package android:name="com.alephzain.framaroot" />
@@ -16,8 +17,6 @@
     <package android:name="com.chelpus.lackypatch" />
     <package android:name="com.chelpus.luckypatcher" />
     <package android:name="com.cih.game_cih" />
-    <package android:name="com.devadvance.rootcloak" />
-    <package android:name="com.devadvance.rootcloakplus" />
     <package android:name="com.dimonvideo.luckypatcher" />
     <package android:name="com.dv.marketmod.installer" />
     <package android:name="com.formyhm.hideroot" />
